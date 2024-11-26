@@ -32,7 +32,7 @@ header {
     background-position: 5% 20% ;
     background-repeat: no-repeat;
     background-size: cover ;
-    min-height: 400px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out; /*to make sure works in all browsers*/
     -webkit-transition: all .5s ease-in-out; /*to make sure works in all browsers*/
@@ -60,6 +60,10 @@ header {
 }
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {

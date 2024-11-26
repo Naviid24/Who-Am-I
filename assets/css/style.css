@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*..........................................Colours */
+/*................................................Colours */
 
 .bg-color-name-title {
     background-color: #676767;
@@ -19,7 +19,7 @@
     background-color: #525252;
 }
 
-/*..........................................Heading */
+/*................................................Heading */
 
 header {
     margin: 0;
@@ -102,3 +102,10 @@ header {
     letter-spacing: 2px;
 }
 
+/*................................................Hover.css */
+
+/*by using developer tools in web browser we will see the background colour for hover effect is in this class so that's why we targeting the before pesudo element here and change the background colour*/
+.hvr-sweep-to-bottom::before {
+    background: rgb(0, 0, 0, 0.2) ;
+    height: 120px;
+}

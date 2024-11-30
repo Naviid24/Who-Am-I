@@ -90,7 +90,7 @@ header {
 
 .logo {
     background: url("../images/a-man-with-black-suit.jpg");
-    background-position: center;
+    background-position: 25% 20%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
